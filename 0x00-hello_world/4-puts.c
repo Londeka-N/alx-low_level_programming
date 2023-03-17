@@ -2,7 +2,7 @@ include < stdio.h >
 
 /**
  *  main- every code must be inclsed by main function
- *return: must alwaays be 0 for successful output
+ * return; must alwaays be 0 for successful output
  */
 
 int main(void)
