@@ -1,16 +1,12 @@
-include < stdio.h >
-
+#include <stdio.h>
 /**
- * main - "starting point"
- *the code will be enclosed in main funtion
- *Return: 0 at all times
+ * main -entry point for printing a line using puts
  *
- */
+ * Return: 0 always for succesful output
+*/
 
 int main(void)
-
 {
-	puts("\"Programmingis like building a multilingual puzzele \n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
-
 }
