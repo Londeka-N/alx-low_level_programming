@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _factorial - a function that girves a factorial of a given number
+ * factorial - a function that girves a factorial of a given number
  * @n: parameter of interest
  * Return: 0 for now
 */
 
-int _factorial(int n)
+int factorial(int n)
 {
 	if (n < 0)
 		return (-1);
