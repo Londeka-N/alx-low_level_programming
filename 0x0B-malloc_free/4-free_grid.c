@@ -1,45 +1,21 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
- * argstostr - a function that links all arguments
- * @ac: in of interest
- * @av: double pointer array
+ * free_grid - a function that frees a 2 dimensional grid previously created
+ * @grid: 2 dimenstional grid of interest
+ * @height: height of grid
+ * Description: frees memory of grid
  * Return: 0 for now
  */
-char *argstostr(int ac, char **av)
+void free_grid(int **grid, int height)
 {
-	int i, n, r = 0, l = 0;
+	int i;
 
-	char *str;
+	for (i = 0; i < height; i++)
 
-	if (ac == 0 || av == NULL)
-
-		return (NULL);
-
-	for (i = 0; i < ac; i++)
 	{
-		for (n = 0; av[i][n]; n++)
-			l++;
+		free(grid[i]);
 	}
-	l += ac;
-
-	str = malloc(sizeof(char) * l + 1);
-
-	if (str == NULL)
-
-		return (NULL);
-
-	for (i = 0; i < ac; i++)
-	{
-	for (n = 0; av[i][n]; n++)
-	{
-		str[r] = av[i][n];
-		r++;
-	}
-	if (str[r] == '\0')
-	{
-		str[r++] = '\n';
-	}
-	}
-	return (str);
+	free(grid);
 }
