@@ -1,6 +1,7 @@
 #include "main.h"
-/** _memcpy - a function used to copy a block memory
- * @edest: first parameter of interest
+/**
+ * _memcpy - a function used to copy a block memory
+ * @dest: first parameter of interest
  * @src: second parameter of interest
  * @n: third parameter of interest
  *
