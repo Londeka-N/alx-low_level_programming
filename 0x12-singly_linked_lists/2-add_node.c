@@ -2,7 +2,7 @@
 #include <string.h>
 #include "lists.h"
 /**
- * add_node - a function that adds a new node at the beginning of a singly linked list
+ * add_node - adds a new node at the beginning of a singly linked list
  * @head: pointer pointing to the linked list.
  * @str: string to store in the list.
  *
