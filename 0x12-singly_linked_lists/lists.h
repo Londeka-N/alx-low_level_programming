@@ -3,7 +3,7 @@
 /**
  * struct list_s - linked list
  * @str:string
- * @len: length 
+ * @len: length
  * @next: points to next node
 */
 typedef struct list_s
