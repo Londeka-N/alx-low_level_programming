@@ -1,6 +1,6 @@
 nclude "main.h"
 /**
- * *malloc_checked = a function that will allocate memory
+ * malloc_checked - a function that will allocate memory
  * @b: number of interest
  * Return: 0 for now
 */
