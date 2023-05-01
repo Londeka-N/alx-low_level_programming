@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * malloc_checked - a function that will allocate memory
  * @b: number of interest
@@ -7,14 +7,14 @@ nclude "main.h"
 
 void *malloc_checked(unsigned int b)
 {
-	void *p
+	char *p;
 
 	p = malloc(b);
 
 	if (p == NULL)
 	{
-		(Exit98);
+		exit(98);
 	}
 
 return (0);
-
+}
