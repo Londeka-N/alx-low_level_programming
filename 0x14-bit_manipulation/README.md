@@ -1,1 +1,1 @@
-readme file for bit manipulation project
+Read me file for the bit manipulation task
