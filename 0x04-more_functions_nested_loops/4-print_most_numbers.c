@@ -9,7 +9,7 @@ void print_most_numbers(void)
 {
 	int num = 0;
 
-	while (num >= 48 && num <= 57)
+	while (num <= 9)
 	{
 		if (num != 2 && num != 4)
 		{
