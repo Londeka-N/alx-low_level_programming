@@ -5,12 +5,13 @@
 *Return: 0 when successful
 */
 
-void print_most_numbers()
+void print_most_numbers(void)
 {
 	int num = 0;
+
 	while (num >= 48 && num <= 57)
 	{
-		while(num != 50 && num != 52)
+		while (num != 50 && num != 52)
 		{
 			_putchar('0' + num);
 			num++;
