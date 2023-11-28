@@ -17,8 +17,8 @@ void more_numbers(void)
 		if (num >= 0 && num <= 14)
 		{
 			_putchar('0' + num);
-			num++;
 		}
+		num++;
 
 		_putchar('\n');
 	}
