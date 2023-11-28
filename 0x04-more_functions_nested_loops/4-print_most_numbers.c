@@ -1,7 +1,6 @@
-#include 'main.h"
+#include "main.h"
 /**
 *print_most_numbers - a function that prints most numbers
-*main - encloses the code
 *
 *Return: 0 when successful
 */
@@ -16,6 +15,6 @@ void print_most_numbers()
 			_putchar('0' + num);
 			num++;
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
